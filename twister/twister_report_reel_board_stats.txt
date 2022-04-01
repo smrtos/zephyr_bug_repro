@@ -1,0 +1,193 @@
+[stats from 1st line]
+total: 20556
+skipped: 6625
+error: 0
+failure: 9296
+pass: 4635
+
+[stats by count]
+total_distinct: 20439
+skipped_distinct: 6544
+error_distinct: 0
+failure_distinct: 9292
+pass_distinct: 4603
+
+[validating duplication]
+valiating duplication in totals...
+ - count: 20439
+ - duplications: 
+	 arch.x86.pagetables.dump_ptables = 2
+	 testing.ztest.base.verbose_0.empty_test = 2
+	 testing.ztest.base.verbose_0.assert_tests = 2
+	 testing.ztest.base.verbose_0.assert_mem_equal = 2
+	 testing.ztest.base.verbose_1.empty_test = 2
+	 testing.ztest.base.verbose_1.assert_tests = 2
+	 testing.ztest.base.verbose_1.assert_mem_equal = 2
+	 testing.ztest.base.verbose_2.empty_test = 2
+	 testing.ztest.base.verbose_2.assert_tests = 2
+	 testing.ztest.base.verbose_2.assert_mem_equal = 2
+	 testing.ztest.regular_output.assert_pass = 3
+	 testing.ztest.regular_output.assert_skip = 2
+	 testing.ztest.customized_output.assert_pass = 3
+	 testing.ztest.customized_output.assert_skip = 2
+	 libraries.cmsis_dsp.distance.arm_distance_braycurtis = 2
+	 libraries.cmsis_dsp.distance.arm_distance_canberra = 2
+	 libraries.cmsis_dsp.distance.arm_distance_chebyshev = 2
+	 libraries.cmsis_dsp.distance.arm_distance_cityblock = 2
+	 libraries.cmsis_dsp.distance.arm_distance_correlation = 2
+	 libraries.cmsis_dsp.distance.arm_distance_cosine = 2
+	 libraries.cmsis_dsp.distance.arm_distance_euclidean = 2
+	 libraries.cmsis_dsp.distance.arm_distance_jensenshannon = 2
+	 libraries.cmsis_dsp.distance.arm_distance_minkowski = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_braycurtis = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_canberra = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_chebyshev = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_cityblock = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_correlation = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_cosine = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_euclidean = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_jensenshannon = 2
+	 libraries.cmsis_dsp.distance.fpu.arm_distance_minkowski = 2
+	 kernel.condvar.condvar_wait_timeout = 2
+	 kernel.memory_protection.syscalls.string_nlen = 2
+	 modbus.rtu.coil_wr_rd = 5
+	 modbus.rtu.di_rd = 5
+	 modbus.rtu.input_reg = 5
+	 modbus.rtu.holding_reg = 5
+	 modbus.rtu.diagnostic = 5
+	 modbus.rtu.client_disable = 5
+	 modbus.rtu.server_disable = 5
+	 modbus.rtu.build_only.coil_wr_rd = 5
+	 modbus.rtu.build_only.di_rd = 5
+	 modbus.rtu.build_only.input_reg = 5
+	 modbus.rtu.build_only.holding_reg = 5
+	 modbus.rtu.build_only.diagnostic = 5
+	 modbus.rtu.build_only.client_disable = 5
+	 modbus.rtu.build_only.server_disable = 5
+	 usb.device.usb_dc_api_invalid = 2
+	 bluetooth.isoal.test.unframed_single_pdu = 2
+	 bluetooth.isoal.test.framed_single_pdu = 2
+	 bluetooth.isoal.test.framed_double_pdu = 2
+	 bluetooth.isoal.test.framed_dbl_pdu_err = 2
+	 bluetooth.privacy.test.privacy_clear = 2
+	 drivers.counter.maxim_ds3231.ds3231_get_syncpoint = 2
+	 drivers.pinctrl.gd32_af.dt_extract = 2
+	 drivers.pinctrl.gd32_afio.dt_extract = 2
+	 net.iface.check_promisc_mode_off = 2
+	 net.socket.udp.v4_sendmsg_recvfrom = 2
+	 net.socket.udp.v4_sendmsg_recvfrom_no_aux_data = 2
+	 net.socket.udp.v6_sendmsg_recvfrom = 2
+	 net.socket.udp.v4_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.v6_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.v6_sendmsg_with_txtime = 2
+	 net.socket.udp.preempt.v4_sendmsg_recvfrom = 2
+	 net.socket.udp.preempt.v4_sendmsg_recvfrom_no_aux_data = 2
+	 net.socket.udp.preempt.v6_sendmsg_recvfrom = 2
+	 net.socket.udp.preempt.v4_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.preempt.v6_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.preempt.v6_sendmsg_with_txtime = 2
+	 net.route.populate_nbr_cache = 2
+	 net.route.route_add = 2
+	 net.trickle.trickle_1_status = 2
+ - valiating failed...duplication found!
+valiating duplication in errors...
+ - count: 0
+ - duplications: 
+ - validating passed...no duplication
+valiating duplication in skipped...
+ - count: 6544
+ - duplications: 
+	 arch.x86.pagetables.dump_ptables = 2
+	 modbus.rtu.coil_wr_rd = 5
+	 modbus.rtu.di_rd = 5
+	 modbus.rtu.input_reg = 5
+	 modbus.rtu.holding_reg = 5
+	 modbus.rtu.diagnostic = 5
+	 modbus.rtu.client_disable = 5
+	 modbus.rtu.server_disable = 5
+	 modbus.rtu.build_only.coil_wr_rd = 5
+	 modbus.rtu.build_only.di_rd = 5
+	 modbus.rtu.build_only.input_reg = 5
+	 modbus.rtu.build_only.holding_reg = 5
+	 modbus.rtu.build_only.diagnostic = 5
+	 modbus.rtu.build_only.client_disable = 5
+	 modbus.rtu.build_only.server_disable = 5
+	 bluetooth.isoal.test.unframed_single_pdu = 2
+	 bluetooth.isoal.test.framed_single_pdu = 2
+	 bluetooth.isoal.test.framed_double_pdu = 2
+	 bluetooth.isoal.test.framed_dbl_pdu_err = 2
+	 bluetooth.privacy.test.privacy_clear = 2
+	 drivers.counter.maxim_ds3231.ds3231_get_syncpoint = 2
+	 drivers.pinctrl.gd32_af.dt_extract = 2
+	 drivers.pinctrl.gd32_afio.dt_extract = 2
+	 net.iface.check_promisc_mode_off = 2
+	 net.socket.udp.v4_sendmsg_recvfrom = 2
+	 net.socket.udp.v4_sendmsg_recvfrom_no_aux_data = 2
+	 net.socket.udp.v6_sendmsg_recvfrom = 2
+	 net.socket.udp.v4_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.v6_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.v6_sendmsg_with_txtime = 2
+	 net.socket.udp.preempt.v4_sendmsg_recvfrom = 2
+	 net.socket.udp.preempt.v4_sendmsg_recvfrom_no_aux_data = 2
+	 net.socket.udp.preempt.v6_sendmsg_recvfrom = 2
+	 net.socket.udp.preempt.v4_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.preempt.v6_sendmsg_recvfrom_connected = 2
+	 net.socket.udp.preempt.v6_sendmsg_with_txtime = 2
+	 net.route.populate_nbr_cache = 2
+	 net.route.route_add = 2
+	 net.trickle.trickle_1_status = 2
+ - valiating failed...duplication found!
+valiating duplication in failures...
+ - count: 9292
+ - duplications: 
+	 testing.ztest.regular_output.assert_pass = 2
+	 testing.ztest.customized_output.assert_pass = 3
+	 testing.ztest.customized_output.assert_skip = 2
+ - valiating failed...duplication found!
+
+[components stats]
+component | total_runnable | passed | failure | error | skipped | total | pass rate
+arch                 |    46 |    23 |    23 |     0 |    71 |   117 | 50.00%
+benchmark            |    73 |    73 |     0 |     0 |    10 |    83 | 100.00%
+bluetooth            |     0 |     0 |     0 |     0 |   221 |   221 | 0.00%
+boards               |     0 |     0 |     0 |     0 |    34 |    34 | 0.00%
+boot                 |     0 |     0 |     0 |     0 |     1 |     1 | 0.00%
+bootloader           |     0 |     0 |     0 |     0 |     1 |     1 | 0.00%
+buildsystem          |     4 |     0 |     4 |     0 |     2 |     6 | 0.00%
+can                  |     0 |     0 |     0 |     0 |     4 |     4 | 0.00%
+canbus               |     0 |     0 |     0 |     0 |    24 |    24 | 0.00%
+config_dir           |     0 |     0 |     0 |     0 |     1 |     1 | 0.00%
+coredump             |     8 |     5 |     3 |     0 |     3 |    11 | 62.50%
+cpp                  |     8 |     8 |     0 |     0 |     5 |    13 | 100.00%
+crypto               |   169 |   166 |     3 |     0 |     2 |   171 | 98.22%
+dfu                  |     0 |     0 |     0 |     0 |    11 |    11 | 0.00%
+drivers              |    13 |    12 |     1 |     0 |   664 |   677 | 92.31%
+ec_host_cmd          |     0 |     0 |     0 |     0 |    15 |    15 | 0.00%
+edac                 |     0 |     0 |     0 |     0 |    27 |    27 | 0.00%
+filesystem           |    22 |    22 |     0 |     0 |   135 |   157 | 100.00%
+ieee802154           |     0 |     0 |     0 |     0 |     7 |     7 | 0.00%
+ipc                  |     0 |     0 |     0 |     0 |     1 |     1 | 0.00%
+kernel               |   948 |   945 |     3 |     0 |   670 |  1618 | 99.68%
+lib                  |    24 |    24 |     0 |     0 |    22 |    46 | 100.00%
+libraries            | 12211 |  2970 |  9241 |     0 |  1016 | 13227 | 24.32%
+logging              |    59 |    59 |     0 |     0 |   559 |   618 | 100.00%
+ming                 |     1 |     1 |     0 |     0 |     0 |     1 | 100.00%
+misc                 |     2 |     2 |     0 |     0 |     0 |     2 | 100.00%
+modbus               |     0 |     0 |     0 |     0 |    90 |    90 | 0.00%
+net                  |    30 |    30 |     0 |     0 |  2476 |  2506 | 100.00%
+openthread           |     0 |     0 |     0 |     0 |    13 |    13 | 0.00%
+peripheral           |    26 |    26 |     0 |     0 |    14 |    40 | 100.00%
+pm                   |     1 |     1 |     0 |     0 |    17 |    18 | 100.00%
+pm-device-wakeup-api |     0 |     0 |     0 |     0 |     2 |     2 | 0.00%
+portability          |   201 |   201 |     0 |     0 |    84 |   285 | 100.00%
+posix                |     4 |     4 |     0 |     0 |     0 |     4 | 100.00%
+printk               |     2 |     2 |     0 |     0 |     0 |     2 | 100.00%
+sensors              |     0 |     0 |     0 |     0 |     3 |     3 | 0.00%
+shell                |    24 |    24 |     0 |     0 |   197 |   221 | 100.00%
+smp                  |     0 |     0 |     0 |     0 |     5 |     5 | 0.00%
+storage              |     0 |     0 |     0 |     0 |    65 |    65 | 0.00%
+system               |     6 |     6 |     0 |     0 |   126 |   132 | 100.00%
+testing              |    40 |    23 |    17 |     0 |    17 |    57 | 57.50%
+tracing              |     0 |     0 |     0 |     0 |     6 |     6 | 0.00%
+usb                  |     9 |     8 |     1 |     0 |     2 |    11 | 88.89%
+virtualization       |     0 |     0 |     0 |     0 |     2 |     2 | 0.00%
